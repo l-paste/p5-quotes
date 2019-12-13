@@ -13,4 +13,4 @@
 -   Mettre en oeuvre la syntaxe de JavaScript dans un programme
 
 **Livrable :**
- -   [Générateur de citations](https://l-paste.github.io/p5-quotes/index.html)
+ -   [Générateur de citations](https://l-paste.github.io/p5-quotes/)
