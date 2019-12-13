@@ -1,7 +1,7 @@
 # Projet 5 - Imaginez un générateur de citations
 **Formation OpenClassrooms, parcours Développeur d'application front-end**
 
-**Consigne :** 
+**Consignes :** 
 
 > Création d'un générateur de citations avec les critères suivants :
 > -   Choisir le nombre de citations générées (de 1 à 5).
