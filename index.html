@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC" rel="stylesheet">
+  <title>Le Déprimotron - Générateur de citations</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+  <!-- Page Content -->
+  <section>
+    <div class="container">
+      <div class="logo">
+        <img src="img/logo.png" class="img-fluid" alt="Logo">
+
+      </div>
+      <div class="fond-transparent pl-4">
+        <div class="row">
+          <div class="col-lg-6 p-3">
+            <h5>Nature du doute</h5>
+            <select class="" id="selectionTemplate">
+              <option value="templateUn">Interrogation existentielle</option>
+              <option value="templateDeux">Pessimisme plombant</option>
+            </select>
+          </div>
+          <div class="col-lg-6 p-3">
+            <h5>Nb. de méfaits</h5>
+            <div class="form-check form-check-inline" id="inlineRadio">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1" checked>
+              <label class="form-check-label" for="inlineRadio1">1</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="2" required>
+              <label class="form-check-label" for="inlineRadio2">2</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="3" required>
+              <label class="form-check-label" for="inlineRadio3">3</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="4" required>
+              <label class="form-check-label" for="inlineRadio4">4</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="5" required>
+              <label class="form-check-label" for="inlineRadio5">5</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" id="genererCitation">
+          <div class="col-lg-12 m-3">
+            <button onclick="genererCitation()" type="button" class="btn btn-light" id="genererCitation">Début de la fin</button>
+          </div>
+        </div>
+        <div class="row" id="effacerCitation" style="display: none;">
+          <div class="col-lg-12 m-3">
+            <button onclick="effacerCitation()" type="button" class="btn btn-light" style="" id="effacerCitation">Effacer</button>
+          </div>
+        </div>
+        <div class="row" id="recommencerCitation" style="display: none;">
+          <div class="col-lg-12 m-3">
+            <button onclick="genererCitation()" type="button" class="btn btn-light" style="" id="relancerCitation">Relancer</button>
+          </div>
+        </div>
+        <div class="col-lg-12 py-2 h5" id="blocCitation">
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="h3 text-center p-2">
+    🌗 🌘 🌑 🌒 🌓
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/citations.js"></script>
+</body>
+
+</html>

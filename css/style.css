@@ -1,0 +1,18 @@
+/*!
+ * Start Bootstrap - The Big Picture (https://startbootstrap.com/template-overviews/the-big-picture)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
+ */
+body {
+  background: url('../img/dore.jpg') no-repeat center center fixed;
+  color: white;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  font-family: 'IM Fell Great Primer SC', serif;
+
+}
+
+.fond-transparent {
+  background: rgba(0, 0, 0, 0.8);
+}
